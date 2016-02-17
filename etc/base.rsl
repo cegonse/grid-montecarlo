@@ -1,0 +1,9 @@
+&
+(count = $COUNT)
+(executable = $EXEC)
+(arguments = $ARGS)
+(rsl_substitution = (GASS_URL https://$HOST:$PORT/tmp))
+(stdout = $(GASS_URL)/stdout)
+(stderr = $(GASS_URL)/stderr)
+(file_stage_in=($(GASS_URL)/$INFILE /tmp/$INFILE) )
+(file_stage_out=(/tmp/$OUTFILE $(GASS_URL)/$OUTFILE) )

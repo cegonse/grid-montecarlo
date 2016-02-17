@@ -1,0 +1,9 @@
+{
+	"count": 1,
+	"executable": "/bin/sh",
+	"arguments": "-c \"cd /tmp && tar -xf raytracer.tar.gz && octave -q raytracer.m",
+	"hostname": "cesar.ccgc.mastercpd.upv.es",
+	"port": 44000,
+	"inFile": "raytracer.tar.gz",
+	"outFile": "result"
+}

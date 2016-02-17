@@ -1,0 +1,9 @@
+{
+	"count": 1,
+	"executable": "/usr/bin/octave",
+	"arguments": "-q /tmp/montecarlo.m",
+	"hostname": "cesar.ccgc.mastercpd.upv.es",
+	"port": 44000,
+	"inFile": "montecarlo.m",
+	"outFile": "result"
+}
